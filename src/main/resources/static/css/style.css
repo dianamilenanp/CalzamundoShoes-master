@@ -1,0 +1,37 @@
+.logo {
+  width: 400px;
+  height: 150px;
+}
+.nombre {
+  font-family: cursive;
+  color: white;
+}
+.contenedor {
+  height: 300px;
+  width: 1350px;
+  padding: 1em;
+}
+
+.contenedor1 {
+  display: inline-block;
+  height: 200px;
+  width: 610px;
+  padding: 1em;
+  align-content: center;
+  align-items: center;
+}
+
+.footer {
+  background-color: rgba(128, 128, 128, 0.631);
+  height: 280px;
+  width: 1350px;
+  padding: 1em;
+}
+a {
+  color: white;
+}
+footer p,
+img {
+  text-align: center;
+  color: white;
+}

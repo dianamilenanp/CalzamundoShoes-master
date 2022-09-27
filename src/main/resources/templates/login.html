@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <link
+      type="text/css"
+      rel="stylesheet"
+      th:href="@{../static/css/style.css}"
+    />
+    <title>CalzamundoShoes</title>
+  </head>
+  <body>
+    <nav class="navbar" style="background-color: #f11167">
+      <div class="container-fluid">
+        <a class="navbar-brand logo">
+          <img src="../static/img/logoCalzamundo.png" alt="" class="logo"
+        /></a>
+        <form class="d-flex" role="search">
+          <button class="btn btn-outline-success" type="submit">
+            <img src="" alt="" />
+            Iniciar Sesión
+          </button>
+        </form>
+      </div>
+    </nav>
+    <div class="container mt-3">
+        <div class="row">
+          <!--Inicio del card-->
+          <div class="card text-center">
+            <div class="card-body">
+              <h1 class="card-title">Crear nuevo estudiante</h1>
+              <!--Inicio del formulario-->
+              <form>
+                <div class="mb-3">
+                  <div class="form-group">
+                    <label>Usuario</label>
+                    <input
+                    type="text"
+                    name="email"
+                    class="form-control"
+                    placeholder="Ingrese el email del usuario"
+                    />
+                  </div>
+                 
+                  <div class="form-group">
+                    <label>Contraseña</label>
+                    <input
+                      type="text"
+                      name="password"
+                      class="form-control"
+                      placeholder="Ingrese la contraseña del usuario"
+                    />
+                  </div>
+                  <div class="form-group">
+                    <label>Cursos</label>
+                  </div>
+                  <div class="box-footer mt-4">
+                    <button type="submit" class="btn btn-primary">Ingresar</button>
+                  </div>
+                  <div class="box-footer mt-4">
+                    <button type="submit" class="btn btn-primary">Cancelar</button>
+                  </div>
+                </div>
+              </form>
+              <!--Fin del formulario-->
+            </div>
+          </div>
+          <!--Fin del card-->
+        </div>
+      </div>
+    <footer>
+      <div class="">
+        <br />
+        <img src="../static/img/logoCalzamundo.png" alt="" class="logo" />
+      </div>
+      <div class="">
+        <ul>
+          <li><a href="/acerca-de">Acerca de nosotros</a></li>
+          <li><a href="/conectar">Nuestras tiendas</a></li>
+          <li><a href="/rrss">Redes Sociales</a></li>
+        </ul>
+      </div>
+      <p>&copy; 2022 Dario Carrillo-Diana Niño</p>
+    </footer>
+  </body>
+</html>

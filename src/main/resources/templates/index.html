@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <link
+      type="text/css"
+      rel="stylesheet"
+      th:href="@{../static/css/style.css}"
+    />
+    <title>CalzamundoShoes</title>
+  </head>
+  <body>
+    <nav class="navbar" style="background-color: #f11167">
+      <div class="container-fluid">
+        <a class="navbar-brand nombre"> Calzamundo<strong>Shoes</strong> </a>
+        <form class="d-flex" role="search">
+          <button class="btn btn-outline-success" type="submit">
+            <img src="" alt="" />
+            Iniciar Sesión
+          </button>
+        </form>
+      </div>
+    </nav>
+    <div
+      id="carouselExampleControls"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            th:src="@{../static/img/banner3.jpg}"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img src="" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="" class="d-block w-100" alt="..." />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleControls"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div class="contenedor">
+      <div class="contenedor1">
+        <img src="../static/img/imgCalzado.JPG" class="rounded" alt="..." />
+      </div>
+      <div class="contenedor1">
+        <h2>Quienes Somos</h2>
+        <p>
+          Somos una empresa de Calzado a nivel Bogotá contamos con tiendas
+          fisicas en más de 3 puntos en diferentes localidades, con nuestra
+          tienda buscamos ofrecerle el mejor calzado a nuestros clientes, de
+          buena calidad y a excelentes precios.
+        </p>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer">
+        <div class="contenedor1">
+          <br />
+          <img src="../static/img/logoCalzamundo.png" alt="" class="logo" />
+        </div>
+
+        <div class="contenedor1">
+          <h3>Contactenos</h3>
+          <ul>
+            <li><a href="/acerca-de">Acerca de nosotros</a></li>
+            <li><a href="/conectar">Nuestras tiendas</a></li>
+            <li><a href="/rrss">Redes Sociales</a></li>
+          </ul>
+        </div>
+        <p><strong>&copy; 2022 Dario Carrillo-Diana Niño</strong></p>
+      </div>
+    </footer>
+  </body>
+</html>
